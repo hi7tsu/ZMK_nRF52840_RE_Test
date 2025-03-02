@@ -1,0 +1,22 @@
+```
+#include <dt-bindings/zmk/matrix_transform.h>
+#include "nrhkb-layouts.dtsi"
+
+/{
+    kscan0: kscan {
+	compatible = "zmk,kscan-gpio-direct";
+	input-gpios
+		= <&pro_micro 9 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+		, <&pro_micro 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+    };
+
+    matrix_transform0: keymap_transform0 {
+        compatible = "zmk,matrix-transform";
+        columns = <2>;
+        rows = <1>;
+        map = <
+        //   Key 1 | Key 2
+            RC(0,0) RC(0,1)
+        >;
+    };
+};

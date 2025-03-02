@@ -1,0 +1,20 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+        default_layer { // Layer 0
+            display-name = "Default";
+            bindings = <
+                &kp A    &lt 1 B
+            >;
+        };
+        L1 {
+            display-name = "Layer1";
+            bindings = <
+                &kp Z    &lt 0 Y
+            >;
+        };
+    };
+ };

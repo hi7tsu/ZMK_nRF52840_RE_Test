@@ -1,0 +1,9 @@
+file_format: "1"
+id: nrfkb
+name: nRF52840 Keyboard
+type: shield
+url: https://zmk.dev/docs/development/hardware-integration/hardware-metadata-files
+requires:
+    - pro_micro
+features:
+    - keys
