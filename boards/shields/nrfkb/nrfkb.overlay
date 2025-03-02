@@ -1,6 +1,6 @@
 ```
 #include <dt-bindings/zmk/matrix_transform.h>
-#include "nrhkb-layouts.dtsi"
+#include "nrfkb-layouts.dtsi"
 
 /{
     kscan0: kscan {
