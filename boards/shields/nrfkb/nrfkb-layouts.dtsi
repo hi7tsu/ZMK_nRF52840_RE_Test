@@ -13,4 +13,8 @@
             , <&key_physical_attrs 100 100  100    0       0     0     0>
             ;
     };
+
+    chosen {
+        zmk,physical-layout = &physical_layout0;
+    };
 };
