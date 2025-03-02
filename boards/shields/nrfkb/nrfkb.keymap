@@ -7,13 +7,13 @@
         default_layer { // Layer 0
             display-name = "Default";
             bindings = <
-                &mt A B    &studio_unlock
+                &mt A B    &kp C    &sl 1
             >;
         };
         L1 {
             display-name = "Layer1";
             bindings = <
-                &kp Z    &lt 0 Y
+                &kp X    &kp Y    &kp Z
             >;
         };
     };
