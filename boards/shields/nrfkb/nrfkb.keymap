@@ -7,13 +7,19 @@
         default_layer { // Layer 0
             display-name = "Default";
             bindings = <
-                &mt A B    &kp C    &sl 1
+                &kp 1 &kp 2 &kp 3 &kp A 
+                &kp 4 &kp 5 &kp 6 &kp B
+                &kp 7 &kp 8 &kp 9 &kp C
+                &to 1 &kp 0 &kp HASH &kp D 
             >;
         };
         L1 {
             display-name = "Layer1";
             bindings = <
-                &kp X    &kp Y    &kp Z
+                &BT_SEL 0 &BT_SEL 1 &BT_SEL 2 &BT_PRV
+                &BT_DISC 0 &BT_DISC 1 &BT_DISC 2 &BT_NXT
+                &kp Q &kp W &kp E &BT_CLR
+                &to 0 &kp R &kp T &BT_CLR_ALL
             >;
         };
     };
