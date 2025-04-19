@@ -47,4 +47,8 @@
         sensors = <&encoder1>;
         triggers-per-rotation = <20>;
     };
+
+    &encoder1 {
+        status = "okay";
+    };
 };
