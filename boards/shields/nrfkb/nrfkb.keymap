@@ -13,6 +13,7 @@
                 &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp C
                 &to 1 &kp KP_N0 &kp HASH &kp D 
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
         L1 {
             display-name = "Layer1";
@@ -22,6 +23,7 @@
                 &kp Q &kp W &kp E &bt BT_CLR
                 &to 0 &kp R &kp T &bt BT_CLR_ALL
             >;
+            sensor-bindings = <&inc_dec_kp PG_DN PG_UP>;
         };
     };
  };
